@@ -1,4 +1,27 @@
+###################################   End  ################################### 
+## This is only for understanding the inverse matrix
+## https://www.khanacademy.org/math/precalculus/precalc-matrices/inverting_matrices/v/inverse-of-a-2x2-matrix
+## cacheSolve <- function(x, ...) {
+##    inv = solve(x)
+##    inv
+## }
+##> x <-  c(3,-1,5,2)
+##> dim(x) <- c(2,2)
+##> x
+## [,1] [,2]
+## [1,]    3    5
+## [2,]   -1    2
+###################################   End  ################################### 
+
 ## Main function for the assignment
+# Matrix inversion is usually a costly/expensive  operation/computation 
+# to caching the inverse of a matrix once and retrieve it when needed will improve the performance.
+
+# makeCacheMatrix functions 
+# "set" the  matrix
+# "get" the matrix
+# "setinv" the inverse of the matrix
+# "getinv" the inverse of the matrix
 
 makeCacheMatrix <- function(x = matrix()) { 
   invMat = NULL
@@ -35,6 +58,9 @@ cacheSolve <- function(x, ...) {
 }
 
 
+
+
+###################################   Final Test Begin  ################################### 
 ## This is only for understanding the inverse matrix
 ## https://www.khanacademy.org/math/precalculus/precalc-matrices/inverting_matrices/v/inverse-of-a-2x2-matrix
 ## cacheSolve <- function(x, ...) {
@@ -47,8 +73,7 @@ cacheSolve <- function(x, ...) {
 ## [,1] [,2]
 ## [1,]    3    5
 ## [2,]   -1    2
-
-## Final Answer
+###################################   Final Test Begin End  ################################### 
 ## source("CacheMatrix.R")
 ##> cacheSolve(x)
 ## [,1]       [,2]
