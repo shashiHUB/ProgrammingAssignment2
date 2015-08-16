@@ -1,4 +1,4 @@
-## Main function
+## Main function for the assignment
 
 makeCacheMatrix <- function(x = matrix()) { 
   invMat = NULL
@@ -48,7 +48,7 @@ cacheSolve <- function(x, ...) {
 ## [1,]    3    5
 ## [2,]   -1    2
 
-## Answer
+## Final Answer
 ## source("CacheMatrix.R")
 ##> cacheSolve(x)
 ## [,1]       [,2]
